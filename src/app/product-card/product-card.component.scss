@@ -1,0 +1,59 @@
+.card {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // softer shadow
+  border: 1px solid #e5e7eb; // Tailwind's border-gray-200
+  border-radius: 12px; // Tailwind's rounded-xl ≈ 12px
+  padding: 1.5rem; // Tailwind's p-6 = 24px
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; // Tailwind's gap-6 = 24px
+  position: relative;
+  max-width: 250px;
+  // Optional: improve responsiveness or add hover effect
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  &:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+}
+.product-image {
+  width: 250px;
+  height: 150px;
+  object-fit: contain;
+
+  // Optional enhancements:
+  display: block;       // Ensures image respects width/height without inline gaps
+  max-width: 100%;      // Prevents overflow if placed in a flexible container
+  border-radius: 8px;   // Optional: soft corners
+}
+.product-info
+{
+  display: flex;
+  flex-direction: column;
+  margin: 2;
+}
+.span
+{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.span1
+{
+  font-size: 0.875rem;  // 14px
+  line-height: 1.25rem; // 20px
+}
+.cart
+{
+  width: 100%;
+  padding: 1rem 0rem; 
+  align-items: center;
+}
+.status
+{
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  font-size: 0.875rem;  // 14px
+  line-height: 1.25rem;
+  font-weight: 600;
+}

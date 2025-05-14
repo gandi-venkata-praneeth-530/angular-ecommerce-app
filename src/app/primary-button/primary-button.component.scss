@@ -1,0 +1,15 @@
+.primary-btn {
+  background-color: rgb(73, 114, 181);
+  color: white;
+  padding: 8px 16px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+  align-items: center;
+}
+
+.primary-btn:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,16 @@
+.grid-container {
+  padding: 2rem; // Tailwind's p-8 = 32px
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 1.5rem; // Tailwind's gap-6 = 24px
+  justify-content: center;
+
+  // Optional: responsive adjustment
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}

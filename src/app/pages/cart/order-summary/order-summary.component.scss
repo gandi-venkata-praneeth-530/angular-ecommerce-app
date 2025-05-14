@@ -1,0 +1,33 @@
+.card {
+  background-color: #f1f5f9;      // Tailwind's bg-slate-100
+  padding: 1.5rem;                // Tailwind's p-6
+  border-radius: 0.75rem;         // Tailwind's rounded-xl
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+              0 10px 10px -5px rgba(0, 0, 0, 0.04); // Tailwind's shadow-xl
+  border: 1px solid #e5e7eb;      // Tailwind's border (gray-200)
+}
+.summ {
+  font-size: 1.5rem;     // Tailwind's text-2xl = 24px
+  line-height: 2rem;     // Tailwind's leading-8 = 32px
+}
+.st1{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; // Tailwind's gap-4 = 16px
+}
+.st2{
+  display: flex;
+  gap: 1.5rem;     // Tailwind's gap-6 = 24px
+  margin-top: 0.5rem; // Tailwind's mt-2 = 8px
+}
+.st3{
+  font-size: 1.125rem;   // 18px
+  line-height: 1.75rem;  // 28px
+}
+.Price{
+  font-size: 1.5rem;     // 24px
+  line-height: 2rem;     // 32px
+  font-weight: 700;      // Bold
+}
+
+
